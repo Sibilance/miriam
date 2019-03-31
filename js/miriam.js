@@ -11,14 +11,20 @@ define(require => {
         'miriam'
       );
       this._phrases = [
-        'hello',
+        'hello!',
         'my name is miriam',
+        'i am a block with rounded corners',
         'i am trans',
         'i can jump',
         'my favorite color is pink',
         'not this ugly background color, tho',
         'i like to wear navy',
-        'i just wanna live my life'
+        'i just wanna live my life',
+        'please be nice to me',
+        'follow me on twitter',
+        'or venmo me',
+        '#capitalism $$$',
+        'or just leave me alone'
       ];
     }
 
