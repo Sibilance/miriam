@@ -10,14 +10,16 @@ define(require => {
       this._elem.appendChild(this._coord_root);
     }
 
-    detectBoundary(x, y) {
-      // document.elementsFromPoint() ?
-    }
-
     draw(elem, x, y) {
-      elem.style.transform = 'translate(' + x + 'px, -' + y + 'px)';
+      elem.style.transform = 'translate(' + x + 'px, ' + -y + 'px)';
       if (elem.parentNode !== this._coord_root) {
         this._coord_root.appendChild(elem);
+      }
+    }
+
+    remove(elem) {
+      if (elem.parentNode === this._coord_root) {
+        this._coord_root.removeChild(elem);
       }
     }
   }
