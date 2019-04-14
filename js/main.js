@@ -1,3 +1,7 @@
+require.config({
+    urlArgs: "_=v2"
+});
+
 define(require => {
   let board = require('board');
   let action_loop = require('action_loop');
