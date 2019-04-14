@@ -19,11 +19,12 @@ define(require => {
         'my favorite color is pink',
         'not this ugly background color, tho',
         'i like to wear navy',
+        'my favorite food is spicy fried rice',
+        'but i don\'t like green peas',
+        'my dream is to be a famous artist',
+        'like Man Ray',
         'i just wanna live my life',
         'please be nice to me',
-        'follow me on twitter',
-        'or venmo me',
-        '#capitalism $$$',
         'or just leave me alone'
       ];
     }
